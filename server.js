@@ -20,7 +20,7 @@ app.use(cors());
 app.use('/api', router)
 // get
 app.get('/', (request, response) => {
-    response.send(`<h2>Welcome to express server of employee portal <h2` >);
+    response.send(`<h2>Welcome to express server of employee portal <h2` );
 });
 
 app.listen(port, hostname, () => {
